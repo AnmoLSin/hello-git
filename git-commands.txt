@@ -1,0 +1,29 @@
+git init --> 	It creates .git hidden folder i.e it makes that folder a repository.
+	     	Now, it keeps track on every activity in that repository.
+
+git status -->  It shows status of all the files in a repository like what changes we made in the file which is being tracked.
+		And it also shows files which are not being tracked till now.
+
+git add -->  	This command is used when file which is untracked till now have to change its status to tracked file.
+		i.e we add that file in repository using this command to be tracked from now.
+
+git config --global user.name "Anmol Singh" -->
+git config --global user.email "anisaggu8@gmail.com" -->
+		These both commands are used to introduce user to Git.These commands are used before commiting
+		otherwise it will show error as it don't know any user without any introduction.These commands are used just once.
+
+get commit -m "First Commit" -->
+		It commits the changes made in repository or we can say it creates a checkpoint.
+
+git log  -->	Shows no. of commits.
+
+git remote add origin "GitHub repositry link" -->
+		It creates a origin.
+
+git push -u origin master -->
+		It push the content from our system repository to the cloud space in GitHub.("-u origin master" is used only once for a particular repository, now we can use just "git push")
+
+
+
+		 
+		
