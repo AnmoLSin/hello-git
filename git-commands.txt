@@ -12,7 +12,7 @@ git config --global user.email "anisaggu8@gmail.com" -->
 		These both commands are used to introduce user to Git.These commands are used before commiting
 		otherwise it will show error as it don't know any user without any introduction.These commands are used just once.
 
-get commit -m "First Commit" -->
+git commit -m "First Commit" -->
 		It commits the changes made in repository or we can say it creates a checkpoint.
 
 git log  -->	Shows no. of commits.
